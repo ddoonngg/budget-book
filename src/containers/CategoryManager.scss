@@ -1,0 +1,11 @@
+.category-list {
+  &__item:hover {
+    .category-list__actions {
+      visibility: visible;
+    }
+    background-color: rgba(60, 90, 100, 0.04);
+  }
+  &__actions {
+    visibility: hidden;
+  }
+}

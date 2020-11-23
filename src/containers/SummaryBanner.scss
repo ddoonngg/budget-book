@@ -1,0 +1,12 @@
+.summary-banner {
+  width: 100%;
+  // background-color: rgba(60, 90, 100, 0.04);
+  background-color: gold;
+  padding-top: 60px;
+
+  &__inner {
+    max-width: 1024px;
+    padding: 30px 0;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,12 @@
+.transaction-list {
+  max-height: 100vh;
+  &__item:hover {
+    .transaction-list__actions {
+      visibility: visible;
+    }
+    background-color: rgba(60,90,100,.04)
+  }
+  &__actions {
+    visibility: hidden;
+  }
+}
