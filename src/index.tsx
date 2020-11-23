@@ -5,7 +5,6 @@ import createSagaMiddleware from "redux-saga";
 import ReactDOM from "react-dom";
 import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
 import "antd/dist/antd.css"; // or 'antd/dist/antd.less'
-
 import App from "./containers/App";
 import rootSaga from "./sagas";
 import rootReducer from "./slices";

@@ -5,6 +5,7 @@ import ManageView from "./ManageView";
 import Dashboard from "./Dashboard";
 import SummaryBanner from "./SummaryBanner";
 import { Row, Col } from "antd";
+import "../mock/index";
 import Header from "./Header";
 import "./App.css";
 import "./TransactionsCollection.scss";
